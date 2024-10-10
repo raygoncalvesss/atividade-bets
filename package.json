@@ -1,0 +1,11 @@
+{
+  "name": "atividade-bets",
+  "version": "1.0.0",
+  "description": "Realizacao da atividade bets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rayssa",
+  "license": "MIT"
+}
