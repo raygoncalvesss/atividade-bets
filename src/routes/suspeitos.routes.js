@@ -96,7 +96,7 @@ suspeitosRoutes.put("/:id", (req, res) => {
   const { nome, profissao, apostas, suspeita } = req.body;
 
   // Busca um suspeito pelo id no array de suspeitos
-  const suspeito = candidatos.find((suspect) => suspeito.id == id);
+  const suspeito = suspeitos.find((suspect) => suspect.id == id);
 
   // Verifica se o suspeito foi encontrado
   if (!suspeito) {
